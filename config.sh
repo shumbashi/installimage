@@ -32,13 +32,13 @@ export COMPANY_PUBKEYS=(
   "$COMPANY_PUBKEY"
   "$SCRIPTPATH/gpg/public-key-2018.asc"
 )
-export COMPANY="Hetzner Online GmbH"
-export C_SHORT="hetzner"
+export COMPANY="Libyan Spider"
+export C_SHORT="libyansider"
 export LOCKFILE='/run/lock/installimage'
 export SYSTEMD_NSPAWN_TMP_DIR="$FOLD/systemd_nspawn"
 
 export MODULES="virtio_pci virtio_blk via82cxxx sata_via sata_sil sata_nv sd_mod ahci atiixp raid0 raid1 raid5 raid6 raid10 3w-xxxx 3w-9xxx aacraid powernow-k8"
-export STATSSERVER="213.133.99.103"
+export STATSSERVER="127.0.0.1"
 export HDDMINSIZE="7000000"
 
 export NAMESERVER=("213.133.98.98" "213.133.99.99" "213.133.100.100")
@@ -71,10 +71,7 @@ export OSMENULIST=(
   "Debian"       "(Official)"
   "Ubuntu"       "(Official)"
   "CentOS"       "(Official)"
-  "Arch Linux"   "(Official)"
-  "Other"        "(!!NO SUPPORT!!)"
-  "Old images"   "(!!NO SUPPORT!!)"
-  "Custom image" "(Blanco config for user images)"
+  "Custom image" "(Blanc config for user images)"
 )
 
 export PROXMOX4_BASE_IMAGE="Debian-811-jessie-64-minimal"
