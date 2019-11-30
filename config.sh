@@ -41,7 +41,7 @@ export MODULES="virtio_pci virtio_blk via82cxxx sata_via sata_sil sata_nv sd_mod
 export STATSSERVER="127.0.0.1"
 export HDDMINSIZE="7000000"
 
-export NAMESERVER=("213.133.98.98" "213.133.99.99" "213.133.100.100")
+export NAMESERVER=("8.8.8.8" "8.8.4.4")
 export DNSRESOLVER_V6=("2a01:4f8:0:1::add:9898" "2a01:4f8:0:1::add:9999" "2a01:4f8:0:1::add:1010")
 export NTPSERVERS=("ntp1.hetzner.de" "ntp2.hetzner.com" "ntp3.hetzner.net")
 export AUTH_DNS1="ns1.first-ns.de"
